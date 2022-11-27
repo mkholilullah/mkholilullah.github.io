@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>M Kholilullah</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo"><a href="#">MyPortfolio.</a></div>
+                <ul class="menu">
+                    <li> <a href="#home"> Home </a> </li>
+                    <li> <a href="#about"> About Me </a> </li>
+                    <li> <a href="#experiences"> Experiences </a> </li>
+                    <li> <a href="#projects"> Projects </a> </li>
+                    <li> <a href="#certificates"> Certificates </a> </li>
+                    <li> <a href="#contact"> Contacts </a> </li>
+                    <div class="cancel-btn">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </ul>
+                <div class="media-icons">
+                    <a href="https://github.com/roamercodes"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mas-kopi"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/ilul_29/"><i class="fab  fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="menu-btn"><i class="fas fa-bars"></i></div>
+        </nav>
+    </header>
+
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+    <section class="webproject" id="webpro">
+        <div class="content">
+            <div class="title">
+                <span>Web Programming</span>
+            </div>
+            <div class="webroject-details">
+                <div class="left">
+                    <img src="assets/projects/web/web1.png" alt="img-project">
+                </div>
+
+                <div class="right">
+                    <div class="topic">"Batik E-commerce".</div>
+                    <p>It's a web aplication for selling Batik.</p>
+                    <p>Technologies used : </p>
+                    <p>- CodeIgniter 3 </p>
+                    <p>- Raja Ongkir </p>
+                    <p>- SB Admin 2</p>
+                    <p>- MySql </p>
+                    <div class="button">
+                        <button>See project</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div> -->
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Contact Me</span></div>
+            <div class="text">
+                <div class="topic">Are you interested?</div>
+                <p>You can contact me by Email: mkholilullah29@gmail.com, <a
+                        href="https://www.linkedin.com/in/mas-kopi/">LinkedIn</a> or you can click the button below.</p>
+                <div class="button">
+                    <a href="https://api.whatsapp.com/send?phone=6285257648501">Chat Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="text">
+            <span>Created By <a href="#">Muhammad Kholilullah</a> | &#169; 2022 All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+</body>
+
+</html>
