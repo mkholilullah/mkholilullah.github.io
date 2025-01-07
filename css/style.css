@@ -20,6 +20,8 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #010101;
 }
+
+/* header */
 header nav {
   position: fixed;
   width: 100%;
@@ -137,6 +139,8 @@ nav.sticky .menu-btn {
   color: #e3463f;
   /*color:#FFF;*/
 }
+
+/* end header */
 
 .home {
   height: 100vh;
@@ -847,5 +851,8 @@ footer .text span a:hover {
   }
   .swiper-button-prev {
     left: 0px;
+  }
+  .topic-proj {
+    font-size: 12px;
   }
 }
