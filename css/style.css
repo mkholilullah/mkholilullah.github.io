@@ -142,7 +142,7 @@ nav.sticky .menu-btn {
   height: 100vh;
   width: 100%;
   /* background:rgba(0, 0, 0, 0.5) url(http://localhost:8080/2022/mkholilullah/assets/bg3.jpg) no-repeat center; */
-  background: rgba(0, 0, 0, 0.5) url(../assets/bg3.jpg) no-repeat;
+  background: rgba(0, 0, 0, 0.5) url(../assets/bg3.webp) no-repeat;
   background-blend-mode: screen;
   background-size: cover;
   background-position: center 30%;
